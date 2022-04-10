@@ -31,4 +31,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'nyt' => [
+        'key'       => env('NYT_API_KEY'),
+        'secret'    => env('NYT_API_SECRET'),
+        'endpoint'  => 'https://api.nytimes.com/svc/books/v3/',
+    ],
 ];
